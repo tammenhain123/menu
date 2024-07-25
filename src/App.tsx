@@ -2,6 +2,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Header from './components/Header/Header';
+import Cart from './components/Cart/Cart';
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -16,6 +17,7 @@ function App() {
         navBackgroundColor="#4F372F"
         backgroundImageUrl="https://preodemo.gumlet.io/usr/venue/7602/web/646fbf3abf9d0.png"
       />
+       <Cart />
     </>
   );
 }
